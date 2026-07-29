@@ -1,0 +1,24 @@
+#spring:
+ # data:
+  #  mongodb:
+   #   uri: mongodb+srv://vidyabharti:divya123@cluster0.60crk16.mongodb.net/journaldb?retryWrites=true&w=majority&appName=Cluster0
+    #  auto-index-creation: true
+
+#server:
+ # port: 8080
+  #servlet:
+   # context-path: /journal
+
+spring:
+  profiles:
+    active: dev
+
+
+
+#logging:
+ # level:
+  #  com:
+   #   engineeringdigest:
+    #    journalApp:
+     #     service:
+      #    UserService: OFF
